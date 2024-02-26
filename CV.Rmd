@@ -2,7 +2,7 @@
 name: Ankit
 surname: Deshmukh
 position: "Assistant Professor"
-address: "A-403, Shyam Sukhan, PDPU Road, Bhaijipura, Gandhinagar, Gujarat, India, 382421"
+address: "B-403, Aniket Regime, PDPU Road, Bhaijipura, Gandhinagar, Gujarat, India, 382421"
 phone: +91 96 3052 1359
 www: ankitdeshmukh.com
 email: "deshmukh.acad@gmail.com"
@@ -22,13 +22,12 @@ output:
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 
 # Load packages
-library(here)
 library(vitae)
 library(tidyverse)
 library(readxl)
 
 # This is the CV path
-cv_path <- here::here("Data.xlsx")
+cv_path <- ("./data/data.xlsx")
 
 # These are the sheet names
 cv_sheets <- excel_sheets(cv_path)
@@ -107,8 +106,8 @@ cv_data$experience %>%
 
 **Scientific Publications**
 
-```{r, results='asis'}
-bibliography_entries(here::here("ankit-deshmukh.bib")) %>%
+```{r, results='asis',eval=FALSE}
+bibliography_entries(here::here("./data/ankitdeshmukh.bib")) %>%
     arrange(desc(author$family), issued)
 ```
 
