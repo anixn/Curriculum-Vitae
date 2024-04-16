@@ -1,7 +1,9 @@
 # Curriculum-Vitae
-Ankit Deshmukh's Curriculum Vitae with Excel datasheet rendered using R markdown.
+Ankit Deshmukh's Curriculum Vitae with Excel dataset rendered using R markdown.
 
-## Section of the CV. 
+## Section of the CV.
 1. Bio
-2. Education
+2. Experience
+3. Education
 3. Publications
+4. Awards
