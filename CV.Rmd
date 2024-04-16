@@ -1,7 +1,7 @@
 ---
 name: Ankit
 surname: Deshmukh
-position: "Assistant Professor"
+position: "Assistant Professor • Hydrologist"
 address: "B-403, Aniket Regime, PDPU Road, Bhaijipura, Gandhinagar, Gujarat, India, 382421"
 phone: +91 96 3052 1359
 www: ankitdeshmukh.com
@@ -10,9 +10,9 @@ twitter: anix7n
 github: anixn
 linkedin: anixn
 date: "`r format(Sys.time(), '%B %Y')`"
-headcolor: 414141
-aboutme: "I have recently discovered Comet Dibiasky that is approximately 10-15km in size, and based on my orbital calculations is estimated to strike Earth in 6 months and 14 days"
-profilepic: "images/avtar.png"
+headcolor: 113388
+aboutme: ""
+#profilepic: "images/avtar.png"
 output:
     vitae::awesomecv:
       page_total: true
@@ -63,7 +63,7 @@ detailed_entries(data = cv_data$experience, what = Position, when = Year, where 
 
 # Education
 
-#### University Education
+## University Education
 
 ```{r}
 cv_data$education %>% 
